@@ -20079,9 +20079,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 <approved hash="113,1,44.7252,-55.88,R10,,,,,"/>
 <approved hash="113,1,52.3452,-48.26,R2,,,,,"/>
 <approved hash="113,1,-39.282,52.07,C1,,,,,"/>
-<approved hash="113,1,112.404,67.4412,ONOFF,,,,,"/>
-<approved hash="113,1,111.997,81.4112,BATT,,,,,"/>
+<approved hash="113,1,147.964,67.4412,ONOFF,,,,,"/>
+<approved hash="113,1,147.557,81.4112,BATT,,,,,"/>
 <approved hash="113,1,65.4135,-116.544,T1,,,,,"/>
+<approved hash="113,1,127,65.3119,PTC1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
