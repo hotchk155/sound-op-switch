@@ -1,0 +1,12 @@
+[Settings]
+Active Directory=D:\GitHub\sound-op-switch\firmware\
+Target=PIC12F1822
+Active Compiler=BoostC
+Active Config=Debug
+Config=1
+[Files]
+Count=1
+File0=sound-op-switch.c
+[Browser]
+UseSysHeaders=1
+UseNovoHeaders=1
