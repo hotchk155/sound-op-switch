@@ -19514,49 +19514,49 @@ Source: Comchip CGRM4001-G.pdf</description>
 </classes>
 <parts>
 <part name="MIC" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="IC2" library="linear" deviceset="LM358" device="D" value="LM358D"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GAIN" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
 <part name="EXT" library="jason_eagle6" deviceset="TRUCONNECTJACK" device=""/>
-<part name="R13" library="resistor" deviceset="R-EU_" device="R0805"/>
+<part name="R13" library="resistor" deviceset="R-EU_" device="R0805" value="1m"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="ICSP" library="pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0805"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="R0805"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="PWR" library="led" deviceset="LED" device="3MM"/>
-<part name="R11" library="resistor" deviceset="R-EU_" device="R0805"/>
+<part name="R11" library="resistor" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="OUT" library="jason_eagle6" deviceset="TRUCONNECTJACK" device=""/>
 <part name="RLY1" library="jason_eagle6" deviceset="9007-REED-RELAY" device=""/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="R0805"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="MODE" library="jason_eagle6" deviceset="SP4T-SLIDE" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="R0805"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="R0805"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="R0805"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="jasons_stuff" deviceset="PIC12F1822" device=""/>
-<part name="R8" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="CPOL-EU" device="E2,5-6E"/>
+<part name="C3" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="100u"/>
 <part name="THLD" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="DET" library="led" deviceset="LED" device="3MM"/>
-<part name="R9" library="resistor" deviceset="R-EU_" device="R0805"/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="TRG" library="led" deviceset="LED" device="3MM"/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="R0805"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="R0805"/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2,5-6E"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="4u7"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="ONOFF" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="BATT" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="T1" library="transistor-neu-to92" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT3904LT1"/>
+<part name="T1" library="transistor-neu-to92" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT3904LT1" value="MMBTA13"/>
 <part name="D1" library="jasons_stuff" deviceset="0805DIODE" device=""/>
 <part name="PTC1" library="microbuilder" deviceset="PTC" device="1206"/>
 <part name="D2" library="diode" deviceset="CGRM400*-G" device="" technology="1"/>
@@ -19591,9 +19591,18 @@ Source: Comchip CGRM4001-G.pdf</description>
 <instance part="R5" gate="G$1" x="53.34" y="-124.46" rot="R90"/>
 <instance part="GND10" gate="1" x="53.34" y="-134.62"/>
 <instance part="MODE" gate="G$1" x="114.3" y="-17.78"/>
-<instance part="R1" gate="G$1" x="114.3" y="-38.1" rot="R90"/>
-<instance part="R4" gate="G$1" x="109.22" y="-38.1" rot="R90"/>
-<instance part="R3" gate="G$1" x="104.14" y="-38.1" rot="R90"/>
+<instance part="R1" gate="G$1" x="114.3" y="-38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="112.8014" y="-41.91" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="112.522" y="-36.83" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R4" gate="G$1" x="109.22" y="-38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="107.7214" y="-41.91" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="107.442" y="-36.83" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R3" gate="G$1" x="104.14" y="-38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="102.6414" y="-41.91" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="102.362" y="-36.83" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="GND5" gate="1" x="99.06" y="-50.8"/>
 <instance part="IC1" gate="G$1" x="5.08" y="-40.64"/>
 <instance part="R8" gate="G$1" x="22.86" y="48.26" rot="R90"/>
