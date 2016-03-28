@@ -19542,7 +19542,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="IC1" library="jasons_stuff" deviceset="PIC12F1822" device=""/>
 <part name="R8" library="resistor" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="100u"/>
+<part name="C3" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="1u"/>
 <part name="THLD" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="DET" library="led" deviceset="LED" device="3MM"/>
