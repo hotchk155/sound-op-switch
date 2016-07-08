@@ -19527,7 +19527,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="R12" library="resistor" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="PWR" library="led" deviceset="LED" device="3MM"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="OUT" library="jason_eagle6" deviceset="TRUCONNECTJACK" device=""/>
 <part name="RLY1" library="jason_eagle6" deviceset="9007-REED-RELAY" device=""/>
@@ -19545,10 +19545,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="THLD" library="jasons_stuff" deviceset="ALPS_POT_SMALL" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="DET" library="led" deviceset="LED" device="3MM"/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="TRG" library="led" deviceset="LED" device="3MM"/>
-<part name="R13" library="resistor" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R13" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="R11" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="4u7"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
